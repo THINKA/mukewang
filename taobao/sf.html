@@ -1,0 +1,1669 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/sf.css"/>
+		<!--<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>-->
+		   <style>
+@font-face {
+  font-family: 'iconfont-sf';
+  src: url('//at.alicdn.com/t/font_1449481554_1450233.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_1449481554_1450233.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_1449481554_1450233.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/font_1449481554_1450233.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_1449481554_1450233.svg#iconfont-sf') format('svg'); /* iOS 4.1- */
+}
+                    
+.iconfont-sf {
+    font-family: "iconfont-sf"!important;
+    font-size: 12px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: .2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  	font-family: 'iconfont-pai';
+  	src: url('//at.alicdn.com/t/font_1404373372_07203.eot'); /* IE9*/
+  	src: url('//at.alicdn.com/t/font_1404373372_07203.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  	url('//at.alicdn.com/t/font_1404373372_07203.woff') format('woff'), /* chrome、firefox */
+  	url('//at.alicdn.com/t/font_1404373372_07203.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  	url('//at.alicdn.com/t/font_1404373372_07203.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont-pai {
+    font-family: "iconfont-pai"!important;
+    font-size: 12px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: .2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+    -webkit-appearance: none;
+}
+.banner66-top {
+    min-width: 1190px;
+}
+.m-i {
+    font-family: arial,tahoma,'Hiragino Sans GB',sans-serif;
+}
+</style>
+	</head>
+	<body>
+		<!--头部区域-->
+		<header>
+			<!--导航栏区域-->
+			<!--布局：两个ul-->
+			<div class="site-nav clearfix">
+				<div class="site-nav-bd">
+					<ul class="nav-bd-1">
+						<li class="current"><a href="">亲，请登录</a></li>
+						<li><a href="">免费注册</a></li>
+						<li><a href="">手机逛淘宝</a></li>
+					</ul>	
+					<ul class="nav-bd-2">
+						<!--a标签之间的间距,用的是margin-right-->
+						<li><a href="">淘宝网首页</a></li>
+						<li><a href="">我的淘宝</a></li>
+						<li><a href="">购物车</a></li>
+						<li><a href="">收藏夹</a></li>
+						<li><a href="">商品分类</a></li>
+						<li><a href="">卖家中心</a></li>
+						<li><a href="">联系客服</a></li>
+						<li><a href="">网站导航</a></li>
+					</ul>
+				</div>
+			</div>
+			<!--布局：一个a标签和导航div-->
+			<div class="sf-head">
+				<a href="" class="logo">司法拍卖</a>
+				<div class="nav-con">
+					<!--导航区域-->
+					<!--布局：两个ul和一个div-->
+					<div class="nav-wrap">
+						<ul class="min-nav">
+							<li><a href="">首页</a></li>
+							<li><a href=""><i></i>法院</a></li>
+							<li><a href=""><i></i>公告</a></li>
+							<li><a href=""><i></i>预告</a></li>
+							<li><a href=""><i></i>破产</a></li>
+							<li><a href=""><i></i>万元贷</a></li>
+							<li><a href=""><i></i>豪货</a></li>
+							<!--类名给的img标签-->
+							<li><a href=""><i></i>服务<img src="images/sf/safe-head-3.gif" alt="服务" class="paimai-icon"/></a></li>
+							<li><a href=""><i></i>我的拍卖</a></li>
+						</ul>
+						<ul class="other-nav">
+							<li><a href=""><img src="images/sf/safe-head-icon-2.gif"/></a></li>
+							<li><a href=""><img src="images/sf/safe-head-icon-1.png"/></a></li>
+						</ul>
+						 <!--有个form标签和input.hidden-->
+						<div class="p-search">
+							<form action="">
+								<input type="text" placeholder="标的物名称/地理位置" class="txt"/>
+							    <input type="hidden" value="a213w.3064813.9001.1"/>
+							    <button type="submit" class="btn"></button>
+							</form>
+						</div>
+					</div>
+					<div class="useless-border"></div>
+				</div>
+			</div>
+		</header>
+		<!--banner区域-->
+		<!--布局：就是a标签下的img-->
+		<div class="sf-top-banner clearfix">
+			<a href="">
+				<img src="images/sf/sf-top-banner.gif"/>
+			</a>
+		</div>
+		<!--focus区域-->
+		<!--布局：两个div-->
+		<div class="sf-focus clearfix">
+			<div class="inner">
+				<div class="left">
+					<!--布局：淘宝中是两个div，分别包裹一个h3和ul-->
+					<div class="left-list">
+						<dl class="left-top clearfix">
+						<dt><a href=""><i class="iconfont-sf"></i>标的物类型</a></dt>
+						<dd>
+							<a href="" class="current">机动车</a>
+							<a href="" class="current">房产</a>
+							<a href="">资产</a>
+							<a href="">土地</a>
+							<a href="">林权</a>
+							<a href="">无形资产</a>
+							<a href="">工程</a>
+							<a href="">其他</a>
+						</dd>
+					</dl>
+					<dl class="left-bottom clearfix">
+						<dt><a href=""><i class="iconfont-sf"></i>标的物所在地</a></dt>
+						<dd>
+							 <a href="" class="current">浙江</a>
+							 <a href="" class="current">江苏</a>
+							 <a href="" class="current">广东</a>
+							 <a href="">福建</a>
+							 <a href="">山东</a>
+							 <a href="" class="current">河南</a>
+							 <a href="">四川</a>
+							 <a href="" class="current">北京</a>
+							 <a href="">河北</a>
+							 <a href="">山西</a>
+							 <a href="">湖北</a>
+							 <a href="">广西</a>
+							 <a href="">浙江</a>
+							 <a href="">江苏</a>
+							 <a href="">广东</a>
+							 <a href="">福建</a>
+							 <a href="">山东</a>
+							 <a href="">河南</a>
+							 <a href="">四川</a>
+							 <a href="">北京</a>
+							 <a href="">河北</a>
+							 <a href="">山西</a>
+							 <a href="">湖北</a>
+							 <a href="">广西</a>
+							 <a href="">北京</a>
+							 <a href="">河北</a>
+							 <a href="">山西</a>
+							 <a href="">湖北</a>
+						</dd>
+					</dl>
+					</div>
+				</div>
+				<div class="right">
+					<!--轮播图区域-->
+					<!--注意：a标签没有大于和小于符号，而是用的i标签做背景图-->
+					<div id="container">
+						<ul>
+							<li class="current"><a href=""><img src="images/sf/sf-container-1.png"/></a></li>
+							<li><a href=""><img src="images/sf/sf-container-2.jpg"/></a></li>
+							<li><a href=""><img src="images/sf/sf-container-3.png"/></a></li>
+							<li><a href=""><img src="images/sf/sf-container-4.png"/></a></li>
+						</ul>
+						<ol>
+							<li class="current"></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ol>
+						<a href="" class="arrow" id="prev"><i></i></a>
+						<a href="" class="arrow" id="next"><i></i></a>
+					</div>
+					<div class="right-content">
+						<!--右侧内容区域-->
+						<!--布局：ul、dl和div-->
+						<ul></ul>
+						<dl>
+							<dt><a href="">帮助中心<em>更多<span>></span></em></a></dt>
+							<dd class="current"><a href=""><em>交保</em><span>交保限额</span></a></dd>
+							<dd><a href=""><em>出价</em><span>出价规则</span></a></dd>
+							<dd class="current"><a href=""><em>退回</em><span>退回保证金</span></a></dd>
+							<dd><a href=""><em>交割</em><span>售后交割</span></a></dd>
+							<dd><a href=""><em>贷款</em><span>金融贷款</span></a></dd>
+							<dd><a href=""><em>过户</em><span>如何过户?</span></a></dd>
+							<dd class="last">
+								<a href=""><img src="images/sf/sf-container-icon-1.png" alt="" class="icon-1"/></a>
+								<a href=""><img src="images/sf/sf-container-icon-2.png" alt="" class="icon-2"/></a>
+								<span>模拟司法拍卖</span>
+							</dd>
+						</dl>
+						<div>客服专线 400-822-2870</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--今日拍卖区域-->
+		<!--布局：h2、h3、ul-->
+		<div class="sf-wrap clearfix">
+			<div class="today-mod">
+				<h2 class="gov-title clearfix">
+					<a href="">
+						<span class="title">今日</span>
+						<span class="sub-title">拍卖</span>
+					</a>
+					<span class="more-people">
+						<em>2</em>
+						<em>8</em>
+						<em>2</em>
+						<em>8</em>
+						<em>8</em>
+						<em>7</em>
+						<em>7</em>
+						次围观
+					</span>
+				</h2>
+				<h3 class="gov-title">
+					<a href="">
+						<span class="title">机动车</span>
+					</a>
+					<span class="more-count">
+						<a href="">更多<em>459</em>件<span>></span></a>
+					</span>
+				</h3>
+				<ul class="item-list clearfix">
+					<!--布局：li下的a标签；a中包含3个div-->
+					<li class="pai-item">
+						<a href="" class="link-wrap">
+							<div class="header-section">
+								<img src="images/sf/list-item-1.jpg"/>
+								<p class="title">浙GPF911飞度牌汽车</p>
+							</div>
+							<div class="info-section">
+								<p class="price-current">
+									<span class="label">当前价</span>
+									<span class="value">
+										<em class="currency">&yen;</em>
+										<em class="current-price">1.91<s>万</s></em>
+									</span>
+									<span class="bid-tips">(<em class="bid-count">67</em>次出价)</span>
+								</p>
+								<p class="price-asses">
+									<span class="label">评估价</span>
+									<span class="value"><em class="currency">&yen;</em><em>4500</em></span>
+								</p>
+								<p class="time-doing">
+									<span class="label">预计</span>
+									<span class="value">07月17日 10:00</span>
+									<span class="bid-tips">结束</span>
+								</p>
+							</div>
+							<div class="footer-section">
+								<p class="num-auction"><em>8167</em>次围观</p>
+								<p class="num-apply"><em>25</em>人报名</p>
+							</div>
+						</a>
+					</li>
+					<li class="pai-item">
+						<a href="" class="link-wrap">
+							<div class="header-section">
+								<img src="images/sf/list-item-2.png"/>
+								<p class="title">浙GPF911飞度牌汽车</p>
+							</div>
+							<div class="info-section">
+								<p class="price-current">
+									<span class="label">当前价</span>
+									<span class="value">
+										<em class="currency">&yen;</em>
+										<em class="current-price">1.91<s>万</s></em>
+									</span>
+									<span class="bid-tips">(<em class="bid-count">67</em>次出价)</span>
+								</p>
+								<p class="price-asses">
+									<span class="label">评估价</span>
+									<span class="value"><em class="currency">&yen;</em><em>4500</em></span>
+								</p>
+								<p class="time-doing">
+									<span class="label">预计</span>
+									<span class="value">07月17日 10:00</span>
+									<span class="bid-tips">结束</span>
+								</p>
+							</div>
+							<div class="footer-section">
+								<p class="num-auction"><em>8167</em>次围观</p>
+								<p class="num-apply"><em>25</em>人报名</p>
+							</div>
+						</a>
+					</li>
+					<li class="pai-item">
+						<a href="" class="link-wrap">
+							<div class="header-section">
+								<img src="images/sf/list-item-3.jpg"/>
+								<p class="title">浙GPF911飞度牌汽车</p>
+							</div>
+							<div class="info-section">
+								<p class="price-current">
+									<span class="label">当前价</span>
+									<span class="value">
+										<em class="currency">&yen;</em>
+										<em class="current-price">1.91<s>万</s></em>
+									</span>
+									<span class="bid-tips">(<em class="bid-count">67</em>次出价)</span>
+								</p>
+								<p class="price-asses">
+									<span class="label">评估价</span>
+									<span class="value"><em class="currency">&yen;</em><em>4500</em></span>
+								</p>
+								<p class="time-doing">
+									<span class="label">预计</span>
+									<span class="value">07月17日 10:00</span>
+									<span class="bid-tips">结束</span>
+								</p>
+							</div>
+							<div class="footer-section">
+								<p class="num-auction"><em>8167</em>次围观</p>
+								<p class="num-apply"><em>25</em>人报名</p>
+							</div>
+						</a>
+					</li>
+					<li class="pai-item">
+						<a href="" class="link-wrap">
+							<div class="header-section">
+								<img src="images/sf/list-item-4.jpg"/>
+								<p class="title">浙GPF911飞度牌汽车</p>
+							</div>
+							<div class="info-section">
+								<p class="price-current">
+									<span class="label">当前价</span>
+									<span class="value">
+										<em class="currency">&yen;</em>
+										<em class="current-price">1.91<s>万</s></em>
+									</span>
+									<span class="bid-tips">(<em class="bid-count">67</em>次出价)</span>
+								</p>
+								<p class="price-asses">
+									<span class="label">评估价</span>
+									<span class="value"><em class="currency">&yen;</em><em>4500</em></span>
+								</p>
+								<p class="time-doing">
+									<span class="label">预计</span>
+									<span class="value">07月17日 10:00</span>
+									<span class="bid-tips">结束</span>
+								</p>
+							</div>
+							<div class="footer-section">
+								<p class="num-auction"><em>8167</em>次围观</p>
+								<p class="num-apply"><em>25</em>人报名</p>
+							</div>
+						</a>
+					</li>
+					<li class="pai-item">
+						<a href="" class="link-wrap">
+							<div class="header-section">
+								<img src="images/sf/list-item-5.jpg"/>
+								<p class="title">浙GPF911飞度牌汽车</p>
+							</div>
+							<div class="info-section">
+								<p class="price-current">
+									<span class="label">当前价</span>
+									<span class="value">
+										<em class="currency">&yen;</em>
+										<em class="current-price">1.91<s>万</s></em>
+									</span>
+									<span class="bid-tips">(<em class="bid-count">67</em>次出价)</span>
+								</p>
+								<p class="price-asses">
+									<span class="label">评估价</span>
+									<span class="value"><em class="currency">&yen;</em><em>4500</em></span>
+								</p>
+								<p class="time-doing">
+									<span class="label">预计</span>
+									<span class="value">07月17日 10:00</span>
+									<span class="bid-tips">结束</span>
+								</p>
+							</div>
+							<div class="footer-section">
+								<p class="num-auction"><em>8167</em>次围观</p>
+								<p class="num-apply"><em>25</em>人报名</p>
+							</div>
+						</a>
+					</li>
+					<li class="pai-item">
+						<a href="" class="link-wrap">
+							<div class="header-section">
+								<img src="images/sf/list-item-6.jpg"/>
+								<p class="title">浙GPF911飞度牌汽车</p>
+							</div>
+							<div class="info-section">
+								<p class="price-current">
+									<span class="label">当前价</span>
+									<span class="value">
+										<em class="currency">&yen;</em>
+										<em class="current-price">1.91<s>万</s></em>
+									</span>
+									<span class="bid-tips">(<em class="bid-count">67</em>次出价)</span>
+								</p>
+								<p class="price-asses">
+									<span class="label">评估价</span>
+									<span class="value"><em class="currency">&yen;</em><em>4500</em></span>
+								</p>
+								<p class="time-doing">
+									<span class="label">预计</span>
+									<span class="value">07月17日 10:00</span>
+									<span class="bid-tips">结束</span>
+								</p>
+							</div>
+							<div class="footer-section">
+								<p class="num-auction"><em>8167</em>次围观</p>
+								<p class="num-apply"><em>25</em>人报名</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+				<h3 class="gov-title">
+					<a href="">
+						<span class="title">机动车</span>
+					</a>
+					<span class="more-count">
+						<a href="">更多<em>459</em>件<span>></span></a>
+					</span>
+				</h3>
+				<ul class="item-list clearfix">
+					<!--布局：li下的a标签；a中包含3个div-->
+					<li class="pai-item">
+						<a href="" class="link-wrap">
+							<div class="header-section">
+								<img src="images/sf/list-item-1.jpg"/>
+								<p class="title">浙GPF911飞度牌汽车</p>
+							</div>
+							<div class="info-section">
+								<p class="price-current">
+									<span class="label">当前价</span>
+									<span class="value">
+										<em class="currency">&yen;</em>
+										<em class="current-price">1.91<s>万</s></em>
+									</span>
+									<span class="bid-tips">(<em class="bid-count">67</em>次出价)</span>
+								</p>
+								<p class="price-asses">
+									<span class="label">评估价</span>
+									<span class="value"><em class="currency">&yen;</em><em>4500</em></span>
+								</p>
+								<p class="time-doing">
+									<span class="label">预计</span>
+									<span class="value">07月17日 10:00</span>
+									<span class="bid-tips">结束</span>
+								</p>
+							</div>
+							<div class="footer-section">
+								<p class="num-auction"><em>8167</em>次围观</p>
+								<p class="num-apply"><em>25</em>人报名</p>
+							</div>
+						</a>
+					</li>
+					<li class="pai-item">
+						<a href="" class="link-wrap">
+							<div class="header-section">
+								<img src="images/sf/list-item-2.png"/>
+								<p class="title">浙GPF911飞度牌汽车</p>
+							</div>
+							<div class="info-section">
+								<p class="price-current">
+									<span class="label">当前价</span>
+									<span class="value">
+										<em class="currency">&yen;</em>
+										<em class="current-price">1.91<s>万</s></em>
+									</span>
+									<span class="bid-tips">(<em class="bid-count">67</em>次出价)</span>
+								</p>
+								<p class="price-asses">
+									<span class="label">评估价</span>
+									<span class="value"><em class="currency">&yen;</em><em>4500</em></span>
+								</p>
+								<p class="time-doing">
+									<span class="label">预计</span>
+									<span class="value">07月17日 10:00</span>
+									<span class="bid-tips">结束</span>
+								</p>
+							</div>
+							<div class="footer-section">
+								<p class="num-auction"><em>8167</em>次围观</p>
+								<p class="num-apply"><em>25</em>人报名</p>
+							</div>
+						</a>
+					</li>
+					<li class="pai-item">
+						<a href="" class="link-wrap">
+							<div class="header-section">
+								<img src="images/sf/list-item-3.jpg"/>
+								<p class="title">浙GPF911飞度牌汽车</p>
+							</div>
+							<div class="info-section">
+								<p class="price-current">
+									<span class="label">当前价</span>
+									<span class="value">
+										<em class="currency">&yen;</em>
+										<em class="current-price">1.91<s>万</s></em>
+									</span>
+									<span class="bid-tips">(<em class="bid-count">67</em>次出价)</span>
+								</p>
+								<p class="price-asses">
+									<span class="label">评估价</span>
+									<span class="value"><em class="currency">&yen;</em><em>4500</em></span>
+								</p>
+								<p class="time-doing">
+									<span class="label">预计</span>
+									<span class="value">07月17日 10:00</span>
+									<span class="bid-tips">结束</span>
+								</p>
+							</div>
+							<div class="footer-section">
+								<p class="num-auction"><em>8167</em>次围观</p>
+								<p class="num-apply"><em>25</em>人报名</p>
+							</div>
+						</a>
+					</li>
+					<li class="pai-item">
+						<a href="" class="link-wrap">
+							<div class="header-section">
+								<img src="images/sf/list-item-4.jpg"/>
+								<p class="title">浙GPF911飞度牌汽车</p>
+							</div>
+							<div class="info-section">
+								<p class="price-current">
+									<span class="label">当前价</span>
+									<span class="value">
+										<em class="currency">&yen;</em>
+										<em class="current-price">1.91<s>万</s></em>
+									</span>
+									<span class="bid-tips">(<em class="bid-count">67</em>次出价)</span>
+								</p>
+								<p class="price-asses">
+									<span class="label">评估价</span>
+									<span class="value"><em class="currency">&yen;</em><em>4500</em></span>
+								</p>
+								<p class="time-doing">
+									<span class="label">预计</span>
+									<span class="value">07月17日 10:00</span>
+									<span class="bid-tips">结束</span>
+								</p>
+							</div>
+							<div class="footer-section">
+								<p class="num-auction"><em>8167</em>次围观</p>
+								<p class="num-apply"><em>25</em>人报名</p>
+							</div>
+						</a>
+					</li>
+					<li class="pai-item">
+						<a href="" class="link-wrap">
+							<div class="header-section">
+								<img src="images/sf/list-item-5.jpg"/>
+								<p class="title">浙GPF911飞度牌汽车</p>
+							</div>
+							<div class="info-section">
+								<p class="price-current">
+									<span class="label">当前价</span>
+									<span class="value">
+										<em class="currency">&yen;</em>
+										<em class="current-price">1.91<s>万</s></em>
+									</span>
+									<span class="bid-tips">(<em class="bid-count">67</em>次出价)</span>
+								</p>
+								<p class="price-asses">
+									<span class="label">评估价</span>
+									<span class="value"><em class="currency">&yen;</em><em>4500</em></span>
+								</p>
+								<p class="time-doing">
+									<span class="label">预计</span>
+									<span class="value">07月17日 10:00</span>
+									<span class="bid-tips">结束</span>
+								</p>
+							</div>
+							<div class="footer-section">
+								<p class="num-auction"><em>8167</em>次围观</p>
+								<p class="num-apply"><em>25</em>人报名</p>
+							</div>
+						</a>
+					</li>
+					<li class="pai-item">
+						<a href="" class="link-wrap">
+							<div class="header-section">
+								<img src="images/sf/list-item-6.jpg"/>
+								<p class="title">浙GPF911飞度牌汽车</p>
+							</div>
+							<div class="info-section">
+								<p class="price-current">
+									<span class="label">当前价</span>
+									<span class="value">
+										<em class="currency">&yen;</em>
+										<em class="current-price">1.91<s>万</s></em>
+									</span>
+									<span class="bid-tips">(<em class="bid-count">67</em>次出价)</span>
+								</p>
+								<p class="price-asses">
+									<span class="label">评估价</span>
+									<span class="value"><em class="currency">&yen;</em><em>4500</em></span>
+								</p>
+								<p class="time-doing">
+									<span class="label">预计</span>
+									<span class="value">07月17日 10:00</span>
+									<span class="bid-tips">结束</span>
+								</p>
+							</div>
+							<div class="footer-section">
+								<p class="num-auction"><em>8167</em>次围观</p>
+								<p class="num-apply"><em>25</em>人报名</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+				<h3 class="gov-title">
+					<a href="">
+						<span class="title">机动车</span>
+					</a>
+					<span class="more-count">
+						<a href="">更多<em>459</em>件<span>></span></a>
+					</span>
+				</h3>
+				<ul class="item-list clearfix">
+					<!--布局：li下的a标签；a中包含3个div-->
+					<li class="pai-item">
+						<a href="" class="link-wrap">
+							<div class="header-section">
+								<img src="images/sf/list-item-1.jpg"/>
+								<p class="title">浙GPF911飞度牌汽车</p>
+							</div>
+							<div class="info-section">
+								<p class="price-current">
+									<span class="label">当前价</span>
+									<span class="value">
+										<em class="currency">&yen;</em>
+										<em class="current-price">1.91<s>万</s></em>
+									</span>
+									<span class="bid-tips">(<em class="bid-count">67</em>次出价)</span>
+								</p>
+								<p class="price-asses">
+									<span class="label">评估价</span>
+									<span class="value"><em class="currency">&yen;</em><em>4500</em></span>
+								</p>
+								<p class="time-doing">
+									<span class="label">预计</span>
+									<span class="value">07月17日 10:00</span>
+									<span class="bid-tips">结束</span>
+								</p>
+							</div>
+							<div class="footer-section">
+								<p class="num-auction"><em>8167</em>次围观</p>
+								<p class="num-apply"><em>25</em>人报名</p>
+							</div>
+						</a>
+					</li>
+					<li class="pai-item">
+						<a href="" class="link-wrap">
+							<div class="header-section">
+								<img src="images/sf/list-item-2.png"/>
+								<p class="title">浙GPF911飞度牌汽车</p>
+							</div>
+							<div class="info-section">
+								<p class="price-current">
+									<span class="label">当前价</span>
+									<span class="value">
+										<em class="currency">&yen;</em>
+										<em class="current-price">1.91<s>万</s></em>
+									</span>
+									<span class="bid-tips">(<em class="bid-count">67</em>次出价)</span>
+								</p>
+								<p class="price-asses">
+									<span class="label">评估价</span>
+									<span class="value"><em class="currency">&yen;</em><em>4500</em></span>
+								</p>
+								<p class="time-doing">
+									<span class="label">预计</span>
+									<span class="value">07月17日 10:00</span>
+									<span class="bid-tips">结束</span>
+								</p>
+							</div>
+							<div class="footer-section">
+								<p class="num-auction"><em>8167</em>次围观</p>
+								<p class="num-apply"><em>25</em>人报名</p>
+							</div>
+						</a>
+					</li>
+					<li class="pai-item">
+						<a href="" class="link-wrap">
+							<div class="header-section">
+								<img src="images/sf/list-item-3.jpg"/>
+								<p class="title">浙GPF911飞度牌汽车</p>
+							</div>
+							<div class="info-section">
+								<p class="price-current">
+									<span class="label">当前价</span>
+									<span class="value">
+										<em class="currency">&yen;</em>
+										<em class="current-price">1.91<s>万</s></em>
+									</span>
+									<span class="bid-tips">(<em class="bid-count">67</em>次出价)</span>
+								</p>
+								<p class="price-asses">
+									<span class="label">评估价</span>
+									<span class="value"><em class="currency">&yen;</em><em>4500</em></span>
+								</p>
+								<p class="time-doing">
+									<span class="label">预计</span>
+									<span class="value">07月17日 10:00</span>
+									<span class="bid-tips">结束</span>
+								</p>
+							</div>
+							<div class="footer-section">
+								<p class="num-auction"><em>8167</em>次围观</p>
+								<p class="num-apply"><em>25</em>人报名</p>
+							</div>
+						</a>
+					</li>
+					<li class="pai-item">
+						<a href="" class="link-wrap">
+							<div class="header-section">
+								<img src="images/sf/list-item-4.jpg"/>
+								<p class="title">浙GPF911飞度牌汽车</p>
+							</div>
+							<div class="info-section">
+								<p class="price-current">
+									<span class="label">当前价</span>
+									<span class="value">
+										<em class="currency">&yen;</em>
+										<em class="current-price">1.91<s>万</s></em>
+									</span>
+									<span class="bid-tips">(<em class="bid-count">67</em>次出价)</span>
+								</p>
+								<p class="price-asses">
+									<span class="label">评估价</span>
+									<span class="value"><em class="currency">&yen;</em><em>4500</em></span>
+								</p>
+								<p class="time-doing">
+									<span class="label">预计</span>
+									<span class="value">07月17日 10:00</span>
+									<span class="bid-tips">结束</span>
+								</p>
+							</div>
+							<div class="footer-section">
+								<p class="num-auction"><em>8167</em>次围观</p>
+								<p class="num-apply"><em>25</em>人报名</p>
+							</div>
+						</a>
+					</li>
+					<li class="pai-item">
+						<a href="" class="link-wrap">
+							<div class="header-section">
+								<img src="images/sf/list-item-5.jpg"/>
+								<p class="title">浙GPF911飞度牌汽车</p>
+							</div>
+							<div class="info-section">
+								<p class="price-current">
+									<span class="label">当前价</span>
+									<span class="value">
+										<em class="currency">&yen;</em>
+										<em class="current-price">1.91<s>万</s></em>
+									</span>
+									<span class="bid-tips">(<em class="bid-count">67</em>次出价)</span>
+								</p>
+								<p class="price-asses">
+									<span class="label">评估价</span>
+									<span class="value"><em class="currency">&yen;</em><em>4500</em></span>
+								</p>
+								<p class="time-doing">
+									<span class="label">预计</span>
+									<span class="value">07月17日 10:00</span>
+									<span class="bid-tips">结束</span>
+								</p>
+							</div>
+							<div class="footer-section">
+								<p class="num-auction"><em>8167</em>次围观</p>
+								<p class="num-apply"><em>25</em>人报名</p>
+							</div>
+						</a>
+					</li>
+					<li class="pai-item">
+						<a href="" class="link-wrap">
+							<div class="header-section">
+								<img src="images/sf/list-item-6.jpg"/>
+								<p class="title">浙GPF911飞度牌汽车</p>
+							</div>
+							<div class="info-section">
+								<p class="price-current">
+									<span class="label">当前价</span>
+									<span class="value">
+										<em class="currency">&yen;</em>
+										<em class="current-price">1.91<s>万</s></em>
+									</span>
+									<span class="bid-tips">(<em class="bid-count">67</em>次出价)</span>
+								</p>
+								<p class="price-asses">
+									<span class="label">评估价</span>
+									<span class="value"><em class="currency">&yen;</em><em>4500</em></span>
+								</p>
+								<p class="time-doing">
+									<span class="label">预计</span>
+									<span class="value">07月17日 10:00</span>
+									<span class="bid-tips">结束</span>
+								</p>
+							</div>
+							<div class="footer-section">
+								<p class="num-auction"><em>8167</em>次围观</p>
+								<p class="num-apply"><em>25</em>人报名</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!--右边栏区域-->
+			<!--布局：3个dl-->
+			<div class="sidebar">
+				<dl class="annc">
+					<dt>
+						<a href="">拍卖公告</a>
+						<a href="" class="sidebar-more">更多<span>></span></a>
+					</dt>
+					<dd>
+						<p class="sidebar-content">
+							<a href="">龙江县人民法院关于龙江县头站乡学府名苑6号楼一单元602室房屋（变卖）的公告(变卖)</a>
+						</p>
+						<p>来自<em><a href="">龙江县人民法院</a></em>&nbsp;&nbsp;|&nbsp;&nbsp;刚刚</p>
+					</dd>
+					<dd>
+						<p class="sidebar-content">
+							<a href="">龙江县人民法院关于龙江县头站乡学府名苑6号楼一单元602室房屋（变卖）的公告(变卖)</a>
+						</p>
+						<p>来自<em><a href="">龙江县人民法院</a></em>&nbsp;&nbsp;|&nbsp;&nbsp;1分钟前</p>
+					</dd>
+					<dd>
+						<p class="sidebar-content">
+							<a href="">龙江县人民法院关于龙江县头站乡学府名苑6号楼一单元602室房屋（变卖）的公告(变卖)</a>
+						</p>
+						<p>来自<em><a href="">龙江县人民法院</a></em>&nbsp;&nbsp;|&nbsp;&nbsp;1分钟前</p>
+					</dd>
+					<dd>
+						<p class="sidebar-content">
+							<a href="">龙江县人民法院关于龙江县头站乡学府名苑6号楼一单元602室房屋（变卖）的公告(变卖)</a>
+						</p>
+						<p>来自<em><a href="">龙江县人民法院</a></em>&nbsp;&nbsp;|&nbsp;&nbsp;1分钟前</p>
+					</dd>
+					<dd>
+						<p class="sidebar-content">
+							<a href="">龙江县人民法院关于龙江县头站乡学府名苑6号楼一单元602室房屋（变卖）的公告(变卖)</a>
+						</p>
+						<p>来自<em><a href="">龙江县人民法院</a></em>&nbsp;&nbsp;|&nbsp;&nbsp;1分钟前</p>
+					</dd>
+				</dl>
+				<dl class="sidebar-news">
+					<dt>新闻</dt>
+					<dd>
+						<p class="title"><a href="">昔日冰箱巨头新飞100%股权拍卖，谁将接手？</a></p>
+						<p>2018年6月16日</p>
+					</dd>
+					<dd>
+						<p class="title"><a href="">昔日冰箱巨头新飞100%股权拍卖，谁将接手？</a></p>
+						<p>2018年6月16日</p>
+					</dd>
+					<dd>
+						<p class="title"><a href="">昔日冰箱巨头新飞100%股权拍卖，谁将接手？</a></p>
+						<p>2018年6月16日</p>
+					</dd>
+					<dd>
+						<p class="title"><a href="">昔日冰箱巨头新飞100%股权拍卖，谁将接手？</a></p>
+						<p>2018年6月16日</p>
+					</dd>
+				</dl>
+				<dl class="sidebar-qipa">
+					<dt><a href="">这货也能拍</a></dt>
+					<dd>
+						<a href="" class="img-wrap">
+							<img src="images/sf/sidebar-qipa-1.png"/>
+							<p class="title">海关涉案海参一批</p>
+						</a>
+						<p class="intro">新鲜冰冻，约56.189吨</p>
+					</dd>
+					<dd>
+						<a href="" class="img-wrap">
+							<img src="images/sf/sidebar-qipa-2.jpg"/>
+							<p class="title">海关涉案海参一批</p>
+						</a>
+						<p class="intro">新鲜冰冻，约56.189吨</p>
+					</dd>
+					<dd>
+						<a href="" class="img-wrap">
+							<img src="images/sf/sidebar-qipa-3.jpg"/>
+							<p class="title">海关涉案海参一批</p>
+						</a>
+						<p class="intro">新鲜冰冻，约56.189吨</p>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<!--近期预告-->
+		<!--布局：h2、div-->
+		<div class="nextdays-mod clearfix">
+			<div class="nexdays-con">
+				<h2 class="gov-title">
+					<a href="">
+					<span class="title">近期</span>
+					<span class="sub-title">预告</span>
+					</a>
+				</h2>
+				<div class="nexdays-main">
+					<div class="nexdays-bar"></div>
+					<div class="nexdays-item tomorrow">
+						<!--h3布局：a、span、div下包括p、两个div-->
+						<h3 class="ya-hei clearfix">
+							<a href="">
+								<span class="title">明天</span>
+								<span class="sub-title">7月18日预告</span>
+							</a>
+							<span class="more-count">
+								更多<em class="font-default">1314</em>件<span class="right-arrow">></span>
+							</span>
+							<div class="left-stamp clearfix">
+								<p class="left-stamp-text">明天开拍</p>
+								<div class="left-stamp-quan"></div>
+								<div class="left-stamp-arrow"></div>
+							</div>
+						</h3>
+						<ul class="nexdays-item-list clearfix">
+							<li class="item-list">
+								<a href="" class="link-wrap">
+									<div class="header-section">
+										<img src="images/sf/list-item-1.jpg"/>
+										<p class="title">豫CZU333梅赛德斯奔驰牌小型轿车</p>
+									</div>
+									<div class="info-section">
+										<p class="price-todo">
+											<span class="label">起拍价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">14.877<s>万</s></em>
+											</span>
+										</p>
+										<p class="price-assess">
+											<span class="label">评估价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">15.66<s>万</s></em>
+											</span>
+										</p>
+										<p class="time-do">
+											<span class="label">开拍时间</span>
+											<span class="value">07月18日 09:00</span>
+										</p>
+									</div>
+									<div class="footer-section">
+										<p class="num-action"><em>3836</em>次围观</p>
+										<p class="num-apply"><em>3</em>人报名</p>
+									</div>
+								</a>
+							</li>
+								<li class="item-list">
+								<a href="" class="link-wrap">
+									<div class="header-section">
+										<img src="images/sf/list-item-2.png"/>
+										<p class="title">豫CZU333梅赛德斯奔驰牌小型轿车</p>
+									</div>
+									<div class="info-section">
+										<p class="price-todo">
+											<span class="label">起拍价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">14.877<s>万</s></em>
+											</span>
+										</p>
+										<p class="price-assess">
+											<span class="label">评估价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">15.66<s>万</s></em>
+											</span>
+										</p>
+										<p class="time-do">
+											<span class="label">开拍时间</span>
+											<span class="value">07月18日 09:00</span>
+										</p>
+									</div>
+									<div class="footer-section">
+										<p class="num-action"><em>3836</em>次围观</p>
+										<p class="num-apply"><em>3</em>人报名</p>
+									</div>
+								</a>
+							</li>
+							<li class="item-list">
+								<a href="" class="link-wrap">
+									<div class="header-section">
+										<img src="images/sf/list-item-1.jpg"/>
+										<p class="title">豫CZU333梅赛德斯奔驰牌小型轿车</p>
+									</div>
+									<div class="info-section">
+										<p class="price-todo">
+											<span class="label">起拍价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">14.877<s>万</s></em>
+											</span>
+										</p>
+										<p class="price-assess">
+											<span class="label">评估价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">15.66<s>万</s></em>
+											</span>
+										</p>
+										<p class="time-do">
+											<span class="label">开拍时间</span>
+											<span class="value">07月18日 09:00</span>
+										</p>
+									</div>
+									<div class="footer-section">
+										<p class="num-action"><em>3836</em>次围观</p>
+										<p class="num-apply"><em>3</em>人报名</p>
+									</div>
+								</a>
+							</li>
+							<li class="item-list">
+								<a href="" class="link-wrap">
+									<div class="header-section">
+										<img src="images/sf/list-item-1.jpg"/>
+										<p class="title">豫CZU333梅赛德斯奔驰牌小型轿车</p>
+									</div>
+									<div class="info-section">
+										<p class="price-todo">
+											<span class="label">起拍价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">14.877<s>万</s></em>
+											</span>
+										</p>
+										<p class="price-assess">
+											<span class="label">评估价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">15.66<s>万</s></em>
+											</span>
+										</p>
+										<p class="time-do">
+											<span class="label">开拍时间</span>
+											<span class="value">07月18日 09:00</span>
+										</p>
+									</div>
+									<div class="footer-section">
+										<p class="num-action"><em>3836</em>次围观</p>
+										<p class="num-apply"><em>3</em>人报名</p>
+									</div>
+								</a>
+							</li>
+								<li class="item-list">
+								<a href="" class="link-wrap">
+									<div class="header-section">
+										<img src="images/sf/list-item-3.jpg"/>
+										<p class="title">豫CZU333梅赛德斯奔驰牌小型轿车</p>
+									</div>
+									<div class="info-section">
+										<p class="price-todo">
+											<span class="label">起拍价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">14.877<s>万</s></em>
+											</span>
+										</p>
+										<p class="price-assess">
+											<span class="label">评估价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">15.66<s>万</s></em>
+											</span>
+										</p>
+										<p class="time-do">
+											<span class="label">开拍时间</span>
+											<span class="value">07月18日 09:00</span>
+										</p>
+									</div>
+									<div class="footer-section">
+										<p class="num-action"><em>3836</em>次围观</p>
+										<p class="num-apply"><em>3</em>人报名</p>
+									</div>
+								</a>
+							</li>
+								<li class="item-list">
+								<a href="" class="link-wrap">
+									<div class="header-section">
+										<img src="images/sf/list-item-4.jpg"/>
+										<p class="title">豫CZU333梅赛德斯奔驰牌小型轿车</p>
+									</div>
+									<div class="info-section">
+										<p class="price-todo">
+											<span class="label">起拍价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">14.877<s>万</s></em>
+											</span>
+										</p>
+										<p class="price-assess">
+											<span class="label">评估价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">15.66<s>万</s></em>
+											</span>
+										</p>
+										<p class="time-do">
+											<span class="label">开拍时间</span>
+											<span class="value">07月18日 09:00</span>
+										</p>
+									</div>
+									<div class="footer-section">
+										<p class="num-action"><em>3836</em>次围观</p>
+										<p class="num-apply"><em>3</em>人报名</p>
+									</div>
+								</a>
+							</li>
+								<li class="item-list">
+								<a href="" class="link-wrap">
+									<div class="header-section">
+										<img src="images/sf/list-item-5.jpg"/>
+										<p class="title">豫CZU333梅赛德斯奔驰牌小型轿车</p>
+									</div>
+									<div class="info-section">
+										<p class="price-todo">
+											<span class="label">起拍价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">14.877<s>万</s></em>
+											</span>
+										</p>
+										<p class="price-assess">
+											<span class="label">评估价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">15.66<s>万</s></em>
+											</span>
+										</p>
+										<p class="time-do">
+											<span class="label">开拍时间</span>
+											<span class="value">07月18日 09:00</span>
+										</p>
+									</div>
+									<div class="footer-section">
+										<p class="num-action"><em>3836</em>次围观</p>
+										<p class="num-apply"><em>3</em>人报名</p>
+									</div>
+								</a>
+							</li>
+								<li class="item-list">
+								<a href="" class="link-wrap">
+									<div class="header-section">
+										<img src="images/sf/list-item-6.jpg"/>
+										<p class="title">豫CZU333梅赛德斯奔驰牌小型轿车</p>
+									</div>
+									<div class="info-section">
+										<p class="price-todo">
+											<span class="label">起拍价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">14.877<s>万</s></em>
+											</span>
+										</p>
+										<p class="price-assess">
+											<span class="label">评估价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">15.66<s>万</s></em>
+											</span>
+										</p>
+										<p class="time-do">
+											<span class="label">开拍时间</span>
+											<span class="value">07月18日 09:00</span>
+										</p>
+									</div>
+									<div class="footer-section">
+										<p class="num-action"><em>3836</em>次围观</p>
+										<p class="num-apply"><em>3</em>人报名</p>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+							<div class="nexdays-item after-tomorrow">
+						<!--h3布局：a、span、div下包括p、两个div-->
+						<h3 class="ya-hei clearfix">
+							<a href="">
+								<span class="title">明天</span>
+								<span class="sub-title">7月18日预告</span>
+							</a>
+							<span class="more-count">
+								更多<em class="font-default">1314</em>件<span class="right-arrow">></span>
+							</span>
+							<div class="left-stamp clearfix">
+								<p class="left-stamp-text">明天开拍</p>
+								<div class="left-stamp-quan"></div>
+								<div class="left-stamp-arrow"></div>
+							</div>
+						</h3>
+						<ul class="nexdays-item-list clearfix">
+							<li class="item-list">
+								<a href="" class="link-wrap">
+									<div class="header-section">
+										<img src="images/sf/list-item-1.jpg"/>
+										<p class="title">豫CZU333梅赛德斯奔驰牌小型轿车</p>
+									</div>
+									<div class="info-section">
+										<p class="price-todo">
+											<span class="label">起拍价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">14.877<s>万</s></em>
+											</span>
+										</p>
+										<p class="price-assess">
+											<span class="label">评估价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">15.66<s>万</s></em>
+											</span>
+										</p>
+										<p class="time-do">
+											<span class="label">开拍时间</span>
+											<span class="value">07月18日 09:00</span>
+										</p>
+									</div>
+									<div class="footer-section">
+										<p class="num-action"><em>3836</em>次围观</p>
+										<p class="num-apply"><em>3</em>人报名</p>
+									</div>
+								</a>
+							</li>
+							<li class="item-list">
+								<a href="" class="link-wrap">
+									<div class="header-section">
+										<img src="images/sf/list-item-1.jpg"/>
+										<p class="title">豫CZU333梅赛德斯奔驰牌小型轿车</p>
+									</div>
+									<div class="info-section">
+										<p class="price-todo">
+											<span class="label">起拍价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">14.877<s>万</s></em>
+											</span>
+										</p>
+										<p class="price-assess">
+											<span class="label">评估价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">15.66<s>万</s></em>
+											</span>
+										</p>
+										<p class="time-do">
+											<span class="label">开拍时间</span>
+											<span class="value">07月18日 09:00</span>
+										</p>
+									</div>
+									<div class="footer-section">
+										<p class="num-action"><em>3836</em>次围观</p>
+										<p class="num-apply"><em>3</em>人报名</p>
+									</div>
+								</a>
+							</li>
+								<li class="item-list">
+								<a href="" class="link-wrap">
+									<div class="header-section">
+										<img src="images/sf/list-item-2.png"/>
+										<p class="title">豫CZU333梅赛德斯奔驰牌小型轿车</p>
+									</div>
+									<div class="info-section">
+										<p class="price-todo">
+											<span class="label">起拍价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">14.877<s>万</s></em>
+											</span>
+										</p>
+										<p class="price-assess">
+											<span class="label">评估价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">15.66<s>万</s></em>
+											</span>
+										</p>
+										<p class="time-do">
+											<span class="label">开拍时间</span>
+											<span class="value">07月18日 09:00</span>
+										</p>
+									</div>
+									<div class="footer-section">
+										<p class="num-action"><em>3836</em>次围观</p>
+										<p class="num-apply"><em>3</em>人报名</p>
+									</div>
+								</a>
+							</li>
+								<li class="item-list">
+								<a href="" class="link-wrap">
+									<div class="header-section">
+										<img src="images/sf/list-item-3.jpg"/>
+										<p class="title">豫CZU333梅赛德斯奔驰牌小型轿车</p>
+									</div>
+									<div class="info-section">
+										<p class="price-todo">
+											<span class="label">起拍价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">14.877<s>万</s></em>
+											</span>
+										</p>
+										<p class="price-assess">
+											<span class="label">评估价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">15.66<s>万</s></em>
+											</span>
+										</p>
+										<p class="time-do">
+											<span class="label">开拍时间</span>
+											<span class="value">07月18日 09:00</span>
+										</p>
+									</div>
+									<div class="footer-section">
+										<p class="num-action"><em>3836</em>次围观</p>
+										<p class="num-apply"><em>3</em>人报名</p>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+							<div class="nexdays-item three-days-later">
+						<!--h3布局：a、span、div下包括p、两个div-->
+						<h3 class="ya-hei clearfix">
+							<a href="">
+								<span class="title">明天</span>
+								<span class="sub-title">7月18日预告</span>
+							</a>
+							<span class="more-count">
+								更多<em class="font-default">1314</em>件<span class="right-arrow">></span>
+							</span>
+							<div class="left-stamp clearfix">
+								<p class="left-stamp-text">明天开拍</p>
+								<div class="left-stamp-quan"></div>
+								<div class="left-stamp-arrow"></div>
+							</div>
+						</h3>
+						<ul class="nexdays-item-list clearfix">
+							<li class="item-list">
+								<a href="" class="link-wrap">
+									<div class="header-section">
+										<img src="images/sf/list-item-1.jpg"/>
+										<p class="title">豫CZU333梅赛德斯奔驰牌小型轿车</p>
+									</div>
+									<div class="info-section">
+										<p class="price-todo">
+											<span class="label">起拍价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">14.877<s>万</s></em>
+											</span>
+										</p>
+										<p class="price-assess">
+											<span class="label">评估价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">15.66<s>万</s></em>
+											</span>
+										</p>
+										<p class="time-do">
+											<span class="label">开拍时间</span>
+											<span class="value">07月18日 09:00</span>
+										</p>
+									</div>
+									<div class="footer-section">
+										<p class="num-action"><em>3836</em>次围观</p>
+										<p class="num-apply"><em>3</em>人报名</p>
+									</div>
+								</a>
+							</li>
+								<li class="item-list">
+								<a href="" class="link-wrap">
+									<div class="header-section">
+										<img src="images/sf/list-item-2.png"/>
+										<p class="title">豫CZU333梅赛德斯奔驰牌小型轿车</p>
+									</div>
+									<div class="info-section">
+										<p class="price-todo">
+											<span class="label">起拍价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">14.877<s>万</s></em>
+											</span>
+										</p>
+										<p class="price-assess">
+											<span class="label">评估价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">15.66<s>万</s></em>
+											</span>
+										</p>
+										<p class="time-do">
+											<span class="label">开拍时间</span>
+											<span class="value">07月18日 09:00</span>
+										</p>
+									</div>
+									<div class="footer-section">
+										<p class="num-action"><em>3836</em>次围观</p>
+										<p class="num-apply"><em>3</em>人报名</p>
+									</div>
+								</a>
+							</li>
+								<li class="item-list">
+								<a href="" class="link-wrap">
+									<div class="header-section">
+										<img src="images/sf/list-item-3.jpg"/>
+										<p class="title">豫CZU333梅赛德斯奔驰牌小型轿车</p>
+									</div>
+									<div class="info-section">
+										<p class="price-todo">
+											<span class="label">起拍价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">14.877<s>万</s></em>
+											</span>
+										</p>
+										<p class="price-assess">
+											<span class="label">评估价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">15.66<s>万</s></em>
+											</span>
+										</p>
+										<p class="time-do">
+											<span class="label">开拍时间</span>
+											<span class="value">07月18日 09:00</span>
+										</p>
+									</div>
+									<div class="footer-section">
+										<p class="num-action"><em>3836</em>次围观</p>
+										<p class="num-apply"><em>3</em>人报名</p>
+									</div>
+								</a>
+							</li>
+								<li class="item-list">
+								<a href="" class="link-wrap">
+									<div class="header-section">
+										<img src="images/sf/list-item-3.jpg"/>
+										<p class="title">豫CZU333梅赛德斯奔驰牌小型轿车</p>
+									</div>
+									<div class="info-section">
+										<p class="price-todo">
+											<span class="label">起拍价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">14.877<s>万</s></em>
+											</span>
+										</p>
+										<p class="price-assess">
+											<span class="label">评估价</span>
+											<span class="value">
+												<em class="currency">&yen;</em>
+												<em class="price">15.66<s>万</s></em>
+											</span>
+										</p>
+										<p class="time-do">
+											<span class="label">开拍时间</span>
+											<span class="value">07月18日 09:00</span>
+										</p>
+									</div>
+									<div class="footer-section">
+										<p class="num-action"><em>3836</em>次围观</p>
+										<p class="num-apply"><em>3</em>人报名</p>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--指导机构 入住法院-->
+		<!--布局：两个一样的div-->
+		<div class="sf-agent clearfix">
+			<div class="wrap">
+				<h2 class="bottom clearfix">
+					<a href="" class="main-title">
+						<span class="title">指导</span>
+						<span class="sub-title">机构</span>
+					</a>
+				</h2>
+				<div class="court-list clearfix">
+					<a href="">中共中央政法委员会</a>
+					<a href="">中华人民共和国最高人民法院</a>
+					<a href="">人民法院诉讼资产网</a>
+				</div>
+			</div>
+			<div class="wrap">
+				<h2 class="bottom clearfix">
+					<a href="" class="main-title">
+						<span class="title">入住</span>
+						<span class="sub-title">法院</span>
+					</a>
+				</h2>
+				<div class="court-list clearfix">
+					<a href="">浙江省高级人民法院</a>
+					<a href="">湖南省高级人民法院</a>
+					<a href="">河北省高级人民法院</a>
+					<a href="">福建省高级人民法院</a>
+					<a href="">河南省高级人民法院</a>
+					<a href="">广东省高级人民法院</a>
+					<a href="">浙江省高级人民法院</a>
+					<a href="">湖南省高级人民法院</a>
+					<a href="">河北省高级人民法院</a>
+					<a href="">福建省高级人民法院</a>
+					<a href="">河南省高级人民法院</a>
+					<a href="">广东省高级人民法院</a>
+					<a href="">河北省高级人民法院</a>
+					<a href="">福建省高级人民法院</a>
+					<a href="">河南省高级人民法院</a>
+					<a href="">广东省高级人民法院</a>
+					<a href="">浙江省高级人民法院</a>
+					<a href="">湖南省高级人民法院</a>
+					<a href="">河北省高级人民法院</a>
+					<a href="">福建省高级人民法院</a>
+					<a href="">河南省高级人民法院</a>
+					<a href="">广东省高级人民法院</a>
+					<a href="">湖南省高级人民法院</a>
+					<a href="">河北省高级人民法院</a>
+					<a href="">福建省高级人民法院</a>
+					<a href="">河南省高级人民法院</a>
+					<a href="">河南省高级人民法院</a>
+					<a href="">广东省高级人民法院</a>
+				</div>
+			</div>
+		</div>
+		<!--foot区域-->
+		<div class="sf-foot">
+			<div class="sf-foot-wrap">
+				<div class="sf-foot-list">
+					<!--注意：没有  href=""-->
+					<a  class="bottom-code">
+						<img src="images/sf/foot-list.png"/>
+					</a>
+					<div class="bottom-list-row row1">
+						<h3>司法学堂</h3>
+						<ul>
+							<li><i></i><a href="">什么是司法拍卖</a></li>
+							<li><i></i><a href="">司法拍卖流程</a></li>
+							<li><i></i><a href="">如何提交保证金</a></li>
+							<li><i></i><a href="">司法拍卖出价延时</a></li>
+							<li><i></i><a href="">优先购买权人</a></li>
+						</ul>
+					</div>
+					<div class="bottom-list-row row2">
+						<h3>竞买人帮助</h3>
+						<ul>
+							<li><i></i><a href="">什么是司法拍卖</a></li>
+							<li><i></i><a href="">司法拍卖流程</a></li>
+							<li><i></i><a href="">如何提交保证金</a></li>
+							<li><i></i><a href="">司法拍卖出价延时</a></li>
+							<li><i></i><a href="">优先购买权人</a></li>
+						</ul>
+					</div>
+					<div class="bottom-list-row row3">
+						<h3>支付帮助</h3>
+						<ul>
+							<li><a href="">什么是司法拍卖</a></li>
+							<li><a href="">司法拍卖流程</a></li>
+							<li><a href="">如何提交保证金</a></li>
+							<li><a href="">司法拍卖出价延时</a></li>
+							<li><a href="">优先购买权人</a></li>
+						</ul>
+					</div>
+					<div class="bottom-list-row row4">
+						<h3>法院服务</h3>
+						<ul>
+							<li><a href="">什么是司法拍卖</a></li>
+							<li><a href="">司法拍卖流程</a></li>
+							<li><a href="">如何提交保证金</a></li>
+							<li><a href="">司法拍卖出价延时</a></li>
+							<li><a href="">优先购买权人</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--底部footer区域-->
+		<div class="footer">
+			<div class="tb-footer">
+				<div class="tb-footer-hd">
+					<p>
+						<span><a href="">阿里巴巴集团</a></span>
+						<b>|</b>
+						<span><a href="">淘宝网</a></span>
+						<b>|</b>
+						<span><a href="">天猫</a></span>
+						<b>|</b>
+						<span><a href="">聚划算</a></span>
+						<b>|</b>
+						<span><a href="">阿里巴巴国际交易市场</a></span>
+						<b>|</b>
+						<span><a href="">全球速卖通</a></span>
+						<b>|</b>
+						<span><a href="">1688</a></span>
+						<b>|</b>
+						<span><a href="">阿里妈妈</a></span>
+						<b>|</b>
+						<span><a href="">飞猪</a></span>
+						<b>|</b>
+						<span><a href="">阿里云计算</a></span>
+						<b>|</b>
+						<span><a href="">阿里通信</a></span>
+						<b>|</b>
+						<span><a href="">淘宝网</a></span>
+						<b>|</b>
+						<span><a href="">天猫</a></span>
+						<b>|</b>
+						<span><a href="">聚划算</a></span>
+						<b>|</b>
+						<span><a href="">阿里巴巴国际交易市场</a></span>
+						<b>|</b>
+						<span><a href="">全球速卖通</a></span>
+						<b>|</b>
+						<span><a href="">1688</a></span>
+						<b>|</b>
+						<span><a href="">阿里妈妈</a></span>
+						<b>|</b>
+						<span><a href="">飞猪</a></span>
+						<b>|</b>
+						<span><a href="">阿里云计算</a></span>
+						<b>|</b>
+						<span><a href="">阿里云计算</a></span>
+						<b>|</b>
+						<span><a href="">阿里通信</a></span>
+						<b>|</b>
+						<span><a href="">淘宝网</a></span>
+						<b>|</b>
+						<span><a href="">天猫</a></span>
+						<b>|</b>
+						<span><a href="">阿里通信</a></span>
+					</p>
+				</div>
+				<div class="tb-footer-bd"></div>
+			</div>
+		</div>
+		<script src="js/sf.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
