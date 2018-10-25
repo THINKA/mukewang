@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery对象和DOM对象</title>
+    <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.js"></script>
+</head>
+<body>
+    <h1>jQuery对象转成DOM对象</br>方法一，可以使用索引(index)</br>方法二，可以使用get(index)方法</h1>
+    <input type="text" id="a1" value="1111">
+    <input type="text" id="a2" value="222">
+    <script>
+    // jQuery对象转成DOM对象，方法一，可以使用索引(index)
+        var a1=$("#a1");
+        alert(a1[0].value);
+    // 方法二，可以使用get(index)方法
+        var a2=$("#a2");
+        alert(a2.get(0).value);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="https://cdn.bootcss.com/prototype/1.5.1.1/prototype.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.js"></script>
+</head>
+<body>
+    <h1>jQuery与其它JS库共存</br>方法一，使用noConflict()方法</br>方法二，注意引入顺序，jquery库引入在前</h1>
+    <input type="text" id="a1" value="aaaa">
+    <script>
+        jQuery.noConflict(); //与其它JS库共存
+        alert($F("a1"));
+        alert($("#a1").val());
+    </script>
+</body>
+</html>
