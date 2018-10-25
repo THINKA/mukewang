@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jq隐式迭代</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <style>
+        #p1{border:3px solid #f00;margin-bottom: 10px;width:200px;cursor:pointer;}
+        #p2{border:3px solid #f00;width:200px;cursor:pointer;}
+    </style>
+</head>
+<body>
+    <h1>jq隐式迭代，不需要循环遍历DOM操作</h1>
+    <div id="p1">
+        <p>我是第1个标签</p>
+        <p>我是第2个标签</p>
+        <p>我是第3个标签</p>
+    </div>
+    <div id="p2">
+        <p>我是第1个标签</p>
+        <p>我是第2个标签</p>
+        <p>我是第3个标签</p>
+    </div>
+    <script>
+    // 当我点击每个p标签的时候，我要弹出p标签里的内容
+    // 隐式迭代 一般情况下不需要for循环遍历DOM对象
+
+        // JS操作
+        var p=document.getElementById("p1").getElementsByTagName("p");
+        for(var i=0;i<p.length;i++){
+            p[i].onclick=function(){
+                alert(this.innerHTML);
+            }
+        }
+
+        // JQ操作
+        var p=$("#p2 p");
+        p.click(function(){
+            alert($(this).html());
+        })
+    </script>
+</body>
+</html>
