@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>map方法</title>
+     <script src="https://cdn.bootcss.com/jquery/2.0.1/jquery.js"></script>
+</head>
+<body>
+    <h1>map方法 转DOM对象</h1>
+    <form>
+       <input type="text" value="111">
+       <input type="text" value="222">
+       <input type="text" value="333">
+       <button>构建表单中所有值的列表</button>
+    </form>
+    <p></p>
+    <script>
+       $(function(){
+          var arr=$("input").map(function(){
+             return $(this).val();
+         }).get().join(',');
+
+        $("button").click(function(){
+            $("p").html(arr);
+        })
+        // $("p").html(arr)
+
+       })
+    </script>
+</body>
+</html>
