@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>普通的表格隔行变色</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <style>
+        table{
+            border-collapse: collapse;cursor:pointer;
+        }
+        table,th{
+            border:1px solid #ccc;
+        }
+        th,td{width:100px;height:24px;line-height:24px;}
+    </style>
+</head>
+<body>
+    <h1>表格隔行变色 链式操作 end</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th>性别</th>
+                <th>暂住地</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>张三</td>
+                <td>男</td>
+                <td>浙江宁波</td>
+            </tr>
+            <tr>
+                <td>李四</td>
+                <td>女</td>
+                <td>浙江杭州</td>
+            </tr>
+            <tr>
+                <td>王五</td>
+                <td>男</td>
+                <td>湖南长沙</td>
+            </tr>
+            <tr>
+                <td>赵六</td>
+                <td>男</td>
+                <td>浙江温州</td>
+            </tr>
+            <tr>
+                <td>田七</td>
+                <td>女</td>
+                <td>湖南常德</td>
+            </tr>
+            <tr>
+                <td>王八</td>
+                <td>女</td>
+                <td>江苏南京</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        $("tbody tr").filter(":even").css("background","#abcdef").end().filter(":odd").css("background","yellow");
+    </script>
+</body>
+</html>
